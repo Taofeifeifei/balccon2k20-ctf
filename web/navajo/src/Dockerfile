@@ -1,4 +1,4 @@
-FROM httpd
+FROM httpd:2-bookworm
 
 RUN apt-get update && apt-get install -y curl python3 python3-requests
 
